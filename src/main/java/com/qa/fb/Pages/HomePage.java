@@ -14,7 +14,7 @@ import com.qa.fb.TestBase.TestBase;
 
 public class HomePage extends TestBase {
 
-	@FindBy(partialLinkText = "Jemish Roy")
+	@FindBy(partialLinkText = "")
 	WebElement usrName;
 
 	@FindBy(xpath = "//span[contains(text(),'Marketplace')]")
